@@ -1,0 +1,161 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #24dfdf;
+  background-image: url("bodybg1.jpg");
+  /* background-image: url("containerbg2.jpg"); */
+  background-size: contain;
+  color: white;
+}
+
+#switch {
+  border: 2px rgb(33, 99, 13) solid;
+  width: 50px;
+  height: 25px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+
+#selectMode {
+  /* border: 2px #bae4aa94 solid; */
+  border-radius: 20px;
+  width: 20px;
+  height: 24px;
+  background-color: #bae4aa94;
+}
+
+.selectModeDifficult {
+  transform: translateX(28px);
+}
+
+#gameContainer {
+  margin: auto;
+  text-align: center;
+  width: 700px;
+  border: 3px black solid;
+  border-radius: 5px;
+  background-color: rgb(44, 198, 245);
+  background-image: url("bodybg1.jpg");
+  background-size: contain;
+  box-shadow: 10px 10px 50px 10px grey;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+#mode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#colorCode {
+  height: 100px;
+  font-size: 50px;
+  font-weight: bold;
+  background-color: #4e83414f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#stats {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.colorButtonsContainer {
+  /* border: 2px red solid; */
+  width: 215px;
+  height: 115px;
+}
+
+.summary {
+  width: 300px;
+  height: 200px;
+  margin: 20px auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+  border-radius: 30px;
+  background-color: rgba(195, 199, 202, 0.411);
+  /* z-index: 9; */
+  border: 2px rgba(195, 199, 202) solid;
+}
+
+.colorButtons {
+  width: 200px;
+  height: 100px;
+  margin: 6px;
+  border-radius: 30px;
+  background-color: aliceblue;
+  transition: width height 2s;
+}
+
+.colorButtons:hover {
+  cursor: pointer;
+  width: 210px;
+  height: 110px;
+  border: 5px rgb(199, 194, 194) solid;
+}
+
+#resetButton,
+#nextButton {
+  height: 35px;
+  width: 60px;
+  background-color: #4e83414f;
+  color: rgb(234, 241, 241);
+  border-radius: 30px;
+  margin: 15px;
+}
+
+#resetButton:hover,
+#nextButton:hover {
+  background-color: #4e83417e;
+  cursor: pointer;
+}
+
+#resetButton:active,
+#nextButton:active {
+  background-color: #4e8341b0;
+  transform: translateY(2px);
+}
+
+.functionButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.playAgainButton {
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: aliceblue;
+  font-size: 25px;
+  font-family: cursive;
+}
+
+.playAgainButton:hover {
+  cursor: pointer;
+  width: 155px;
+  height: 60px;
+  border: 5px rgb(199, 194, 194) solid;
+}

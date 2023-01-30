@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Guessing Game</title>
+  </head>
+  <body>
+    <div id="gameContainer">
+      <h2>GUESS THE COLOR</h2>
+      <div id="mode">
+        <span>Easy&nbsp</span>
+        <span id="switch"><span id="selectMode"></span></span>
+        <span>&nbspDifficult</span>
+      </div>
+      <div id="stats">
+        <div>Score: <span id="score">0</span></div>
+        <div>Lives: <span id="lives">5</span></div>
+      </div>
+      <div id="colorCode">
+        <div id="color">RGB(0,0,0)</div>
+      </div>
+      <div id="buttons">
+        <div class="colorButtonsContainer">
+          <button class="colorButtons"></button>
+        </div>
+        <div class="colorButtonsContainer">
+          <button class="colorButtons"></button>
+        </div>
+        <div class="colorButtonsContainer">
+          <button class="colorButtons"></button>
+        </div>
+        <div class="colorButtonsContainer">
+          <button class="colorButtons"></button>
+        </div>
+        <div class="colorButtonsContainer">
+          <button class="colorButtons"></button>
+        </div>
+        <div class="colorButtonsContainer">
+          <button class="colorButtons"></button>
+        </div>
+      </div>
+      <div class="functionButtons">
+        <button id="nextButton">Next</button>
+        <button id="resetButton">Reset</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
